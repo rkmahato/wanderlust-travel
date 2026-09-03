@@ -1,5 +1,6 @@
 import { config } from '@/config';
 import destinationsData from '@/data/destinations.json';
+import { getAssetUrl } from '@/utils/assets';
 
 // Branded placeholder SVG as data URI — shown as last resort
 const PLACEHOLDER_DATA_URI = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'%3E%3Crect width='800' height='600' fill='%23E8E4DE'/%3E%3Ccircle cx='400' cy='260' r='60' fill='%23B5AFA7'/%3E%3Cpath d='M340 320 L400 220 L460 320Z' fill='%23C9A96E' opacity='0.6'/%3E%3Ctext x='400' y='380' text-anchor='middle' font-family='Georgia,serif' font-size='18' fill='%236B6560'%3EImage unavailable%3C/text%3E%3Ctext x='400' y='405' text-anchor='middle' font-family='Georgia,serif' font-size='14' fill='%23B5AFA7'%3EWanderlust%3C/text%3E%3C/svg%3E";
@@ -183,7 +184,7 @@ export function findPlaceCuratedFallback(query) {
     // 1. Direct match with famous places lookup
     for (const [key, val] of placesLookup.entries()) {
         if (key && (qNorm.includes(key) || key.includes(qNorm))) {
-            return val;
+            return { ...val, url: getAssetUrl(val.url) };
         }
     }
     return null;
@@ -200,7 +201,7 @@ export function findCuratedFallback(query) {
     for (const [key, val] of Object.entries(CURATED_DESTINATIONS)) {
         const kNorm = normalize(key);
         if (kNorm && (qNorm.includes(kNorm) || kNorm.includes(qNorm))) {
-            return val;
+            return { ...val, url: getAssetUrl(val.url) };
         }
     }
 
@@ -211,7 +212,7 @@ export function findCuratedFallback(query) {
         if ((idNorm && qNorm.includes(idNorm)) || (nameNorm && qNorm.includes(nameNorm))) {
             if (dest.imageUrl) {
                 return {
-                    url: dest.imageUrl,
+                    url: getAssetUrl(dest.imageUrl),
                     alt: dest.name,
                     credit: 'Travel Photography',
                     creditUrl: 'https://unsplash.com',

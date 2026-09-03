@@ -14,6 +14,7 @@ import { cn } from '@/utils/motion';
 import { WavyEdgeDivider } from '@/components/common/WavyEdgeDivider';
 import { SquircleBadge } from '@/components/common/SquircleBadge';
 import { VectorMountainLine } from '@/components/common/VectorMountainLine';
+import { getAssetUrl } from '@/utils/assets';
 
 const CONTINENT_OPTIONS = CONTINENTS.map((c) => ({ value: c, label: c }));
 
@@ -98,7 +99,7 @@ export function ExplorePage() {
                 {/* Ambient backdrop image with dark overlay */}
                 <div 
                     className="absolute inset-0 bg-cover bg-center opacity-30 mix-blend-luminosity scale-105 pointer-events-none"
-                    style={{ backgroundImage: `url('/destinations/norway-fjords.jpg')` }}
+                    style={{ backgroundImage: `url('${getAssetUrl('/destinations/norway-fjords.jpg')}')` }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#05070d]/95 via-[#081224]/85 to-[#05070d]/90 pointer-events-none" />
                 <div className="absolute inset-0 img-vignette pointer-events-none" />
@@ -144,7 +145,7 @@ export function ExplorePage() {
                     <div className="lg:col-span-5 hidden lg:block">
                         <div className="relative rounded-3xl overflow-hidden border border-white/20 shadow-2xl bg-[#091122] group aspect-[16/11]">
                             <img 
-                                src="/destinations/patagonia.jpg" 
+                                src={getAssetUrl('/destinations/patagonia.jpg')} 
                                 alt="Patagonia Frontier" 
                                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
                             />
