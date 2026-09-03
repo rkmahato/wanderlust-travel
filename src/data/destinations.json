@@ -1,0 +1,1047 @@
+[
+  {
+    "id": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "continent": "Asia",
+    "tagline": "Where ancient temples meet fleeting cherry blossoms.",
+    "description": "Kyoto served as Japan's imperial capital for over a millennium, leaving behind a cityscape of extraordinary cultural depth. Seventeen UNESCO World Heritage Sites are scattered among bamboo groves, mossy gardens, and golden pavilions. Every season transforms the city into a living canvas.",
+    "coordinates": {
+      "lat": 35.0116,
+      "lon": 135.7681
+    },
+    "tags": [
+      "temples",
+      "culture",
+      "nature",
+      "food",
+      "history"
+    ],
+    "famousPlaces": [
+      {
+        "id": "fushimi-inari",
+        "name": "Fushimi Inari Shrine",
+        "description": "Thousands of vermillion torii gates wind up a sacred mountain, creating one of Japan's most iconic sights.",
+        "imageQuery": "Fushimi Inari shrine torii gates",
+        "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "arashiyama",
+        "name": "Arashiyama Bamboo Grove",
+        "description": "Towering stalks of bamboo form cathedral-like corridors that sway and whisper in the mountain breeze.",
+        "imageQuery": "Arashiyama bamboo grove Kyoto",
+        "imageUrl": "https://images.unsplash.com/photo-1578637387939-43c525550085?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "kinkakuji",
+        "name": "Kinkaku-ji (Golden Pavilion)",
+        "description": "A Zen temple whose top two floors are completely covered in gold leaf, reflected in a surrounding mirror pond.",
+        "imageQuery": "Kinkakuji golden pavilion Kyoto",
+        "imageUrl": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "gion",
+        "name": "Gion District",
+        "description": "Kyoto's most famous geisha district, where wooden machiya townhouses line cobblestone streets.",
+        "imageQuery": "Gion district Kyoto geisha street",
+        "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "philosopher-path",
+        "name": "Philosopher's Path",
+        "description": "A stone-paved canal walk lined with hundreds of cherry trees, beloved by philosopher Nishida Kitaro.",
+        "imageQuery": "Philosopher's Path Kyoto canal cherry blossoms",
+        "imageUrl": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Kyoto Japan travel",
+    "heroQuery": "Kyoto Japan temple landscape",
+    "imageUrl": "/destinations/kyoto.jpg",
+    "heroImageUrl": "/destinations/kyoto.jpg"
+  },
+  {
+    "id": "santorini",
+    "name": "Santorini",
+    "country": "Greece",
+    "continent": "Europe",
+    "tagline": "Whitewashed dreams suspended over a volcanic sea.",
+    "description": "Born from a cataclysmic volcanic eruption, Santorini's dramatic caldera cliffs are crowned with the blue-domed villages that have become synonymous with Greek beauty. Sunsets over Oia are considered among the finest spectacles on earth, drawing travellers from every corner of the globe.",
+    "coordinates": {
+      "lat": 36.3932,
+      "lon": 25.4615
+    },
+    "tags": [
+      "beaches",
+      "culture",
+      "food",
+      "nightlife"
+    ],
+    "famousPlaces": [
+      {
+        "id": "oia-sunset",
+        "name": "Oia Village",
+        "description": "The most photographed village in Greece, perched on the caldera's edge with panoramic sunset views.",
+        "imageQuery": "Oia Santorini sunset blue dome",
+        "imageUrl": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "akrotiri",
+        "name": "Akrotiri Archaeological Site",
+        "description": "A Minoan Bronze Age settlement preserved under volcanic ash for 3,500 years — the Pompeii of the Aegean.",
+        "imageQuery": "Akrotiri archaeological site Santorini",
+        "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "red-beach",
+        "name": "Red Beach",
+        "description": "Dramatic crimson cliffs of volcanic rock plunge into the deep blue Aegean, creating an otherworldly shoreline.",
+        "imageQuery": "Red Beach Santorini volcanic cliffs",
+        "imageUrl": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "fira",
+        "name": "Fira Town",
+        "description": "The island's bustling capital, built on the steep caldera walls with cable cars, boutiques, and cliffside restaurants.",
+        "imageQuery": "Fira Santorini town caldera view",
+        "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Santorini Greece travel",
+    "heroQuery": "Santorini Greece blue dome landscape",
+    "imageUrl": "/destinations/santorini.jpg",
+    "heroImageUrl": "/destinations/santorini.jpg"
+  },
+  {
+    "id": "machu-picchu",
+    "name": "Machu Picchu",
+    "country": "Peru",
+    "continent": "South America",
+    "tagline": "The lost city that time and cloud forest conspired to keep secret.",
+    "description": "Perched at 2,430 metres in the Andes cloud forest, this 15th-century Inca citadel was never known to the Spanish colonisers and was only rediscovered in 1911. Terraced agricultural platforms, astronomically aligned temples, and an intricate water system still stun modern engineers with their sophistication.",
+    "coordinates": {
+      "lat": -13.1631,
+      "lon": -72.545
+    },
+    "tags": [
+      "history",
+      "nature",
+      "mountains",
+      "culture"
+    ],
+    "famousPlaces": [
+      {
+        "id": "sun-gate",
+        "name": "Inti Punku (Sun Gate)",
+        "description": "The original Inca Trail entrance where hikers get their first breathtaking view of the citadel at dawn.",
+        "imageQuery": "Machu Picchu Sun Gate Inti Punku",
+        "imageUrl": "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "intihuatana",
+        "name": "Intihuatana Stone",
+        "description": "A precisely carved ritual stone astronomers believe served as an astronomical clock or calendar.",
+        "imageQuery": "Intihuatana stone Machu Picchu",
+        "imageUrl": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "huayna-picchu",
+        "name": "Huayna Picchu Peak",
+        "description": "The iconic steep pyramid of rock looming behind the citadel, offering vertiginous panoramic views.",
+        "imageQuery": "Huayna Picchu peak Machu Picchu",
+        "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "temple-sun",
+        "name": "Temple of the Sun",
+        "description": "A sacred semicircular tower with windows aligned to the summer solstice sunrise.",
+        "imageQuery": "Temple of the Sun Machu Picchu",
+        "imageUrl": "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Machu Picchu Peru travel",
+    "heroQuery": "Machu Picchu citadel mountains mist",
+    "imageUrl": "/destinations/machu-picchu.jpg",
+    "heroImageUrl": "/destinations/machu-picchu.jpg"
+  },
+  {
+    "id": "amalfi-coast",
+    "name": "Amalfi Coast",
+    "country": "Italy",
+    "continent": "Europe",
+    "tagline": "Pastel villages tumbling down cliffs into a crystalline sea.",
+    "description": "The Amalfi Coast is a 50-kilometre stretch of dramatic Italian coastline where medieval towns cling to vertiginous cliffs above the Tyrrhenian Sea. UNESCO-listed since 1997, it blends Byzantine architecture, terraced lemon groves, and an extraordinary Mediterranean way of life that rewards slow exploration.",
+    "coordinates": {
+      "lat": 40.6341,
+      "lon": 14.6026
+    },
+    "tags": [
+      "beaches",
+      "food",
+      "culture",
+      "history"
+    ],
+    "famousPlaces": [
+      {
+        "id": "positano",
+        "name": "Positano",
+        "description": "Italy's most vertical town — a cascade of pastel houses and bougainvillea spilling down to a pebble beach.",
+        "imageQuery": "Positano Amalfi Coast Italy village",
+        "imageUrl": "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "ravello",
+        "name": "Ravello Gardens",
+        "description": "Hilltop village with the legendary Villa Rufolo gardens, inspiration for Wagner's Parsifal.",
+        "imageQuery": "Ravello gardens Villa Rufolo Amalfi",
+        "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "amalfi-cathedral",
+        "name": "Amalfi Cathedral",
+        "description": "A 9th-century Arab-Norman cathedral whose bronze doors were cast in Constantinople.",
+        "imageQuery": "Amalfi Cathedral Duomo medieval",
+        "imageUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "grotto",
+        "name": "Grotta dello Smeraldo",
+        "description": "An emerald sea cave where sunlight filters through underwater passages to illuminate the water with an ethereal green glow.",
+        "imageQuery": "Grotta Smeraldo emerald cave Amalfi",
+        "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Amalfi Coast Italy travel",
+    "heroQuery": "Amalfi Coast Italy coastline cliff",
+    "imageUrl": "/destinations/amalfi-coast.jpg",
+    "heroImageUrl": "/destinations/amalfi-coast.jpg"
+  },
+  {
+    "id": "bali",
+    "name": "Bali",
+    "country": "Indonesia",
+    "continent": "Asia",
+    "tagline": "The Island of Gods, where rice terraces meet spiritual fire.",
+    "description": "Bali's Hindu culture permeates every aspect of life on this Indonesian island — from the daily flower offerings placed outside shops to the elaborate temple ceremonies that punctuate the calendar. Emerald rice terraces, volcanic peaks, surfable beaches, and a thriving arts scene make it endlessly compelling.",
+    "coordinates": {
+      "lat": -8.3405,
+      "lon": 115.092
+    },
+    "tags": [
+      "temples",
+      "beaches",
+      "culture",
+      "nature",
+      "food"
+    ],
+    "famousPlaces": [
+      {
+        "id": "tegallalang",
+        "name": "Tegallalang Rice Terraces",
+        "description": "Ancient cooperative irrigation terraces carved into volcanic slopes, sculpted over centuries by Balinese farmers.",
+        "imageQuery": "Tegallalang rice terraces Bali Indonesia",
+        "imageUrl": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "tanah-lot",
+        "name": "Tanah Lot Temple",
+        "description": "A sea temple perched on a dramatic offshore rock, silhouetted magnificently against Bali's famous sunsets.",
+        "imageQuery": "Tanah Lot temple Bali sunset",
+        "imageUrl": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "ubud",
+        "name": "Ubud Monkey Forest",
+        "description": "A sacred forest sanctuary where grey long-tailed macaques roam freely among ancient Hindu temples.",
+        "imageQuery": "Ubud Monkey Forest Bali sacred",
+        "imageUrl": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "mount-batur",
+        "name": "Mount Batur",
+        "description": "An active volcano offering pre-dawn trekking with panoramic views over the caldera lake at sunrise.",
+        "imageQuery": "Mount Batur volcano Bali sunrise",
+        "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Bali Indonesia travel",
+    "heroQuery": "Bali Indonesia rice terrace landscape",
+    "imageUrl": "/destinations/bali.jpg",
+    "heroImageUrl": "/destinations/bali.jpg"
+  },
+  {
+    "id": "patagonia",
+    "name": "Patagonia",
+    "country": "Argentina / Chile",
+    "continent": "South America",
+    "tagline": "At the end of the earth, nature writes in superlatives.",
+    "description": "Patagonia is a vast, windswept region straddling southern Argentina and Chile, defined by impossibly dramatic landscapes — soaring granite spires, turquoise glacial lakes, and ancient Patagonian steppe that stretches to the horizon. It is one of the last truly wild places on earth.",
+    "coordinates": {
+      "lat": -50.9423,
+      "lon": -73.4068
+    },
+    "tags": [
+      "mountains",
+      "nature",
+      "wildlife",
+      "winter"
+    ],
+    "famousPlaces": [
+      {
+        "id": "torres-del-paine",
+        "name": "Torres del Paine",
+        "description": "Three granite pillars soaring 2,850 metres above the Patagonian steppe, framed by glaciers and cerulean lakes.",
+        "imageQuery": "Torres del Paine granite pillars Patagonia",
+        "imageUrl": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "perito-moreno",
+        "name": "Perito Moreno Glacier",
+        "description": "One of the few advancing glaciers in the world — 30 km long and 60 metres high, with thunderous ice calving.",
+        "imageQuery": "Perito Moreno glacier Argentina calving",
+        "imageUrl": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "fitz-roy",
+        "name": "Fitz Roy Massif",
+        "description": "The jagged icon of Argentine Patagonia, its spires perpetually wreathed in clouds above El Chaltén village.",
+        "imageQuery": "Fitz Roy mountain Patagonia Argentina",
+        "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "marble-caves",
+        "name": "Marble Caves",
+        "description": "Swirling caverns carved by millennia of waves into polished marble, accessible only by boat on Lake General Carrera.",
+        "imageQuery": "Marble Caves Cavernas de Marmol Patagonia",
+        "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Patagonia wilderness travel",
+    "heroQuery": "Patagonia Torres del Paine landscape",
+    "imageUrl": "/destinations/patagonia.jpg",
+    "heroImageUrl": "/destinations/patagonia.jpg"
+  },
+  {
+    "id": "marrakech",
+    "name": "Marrakech",
+    "country": "Morocco",
+    "continent": "Africa",
+    "tagline": "A sensory labyrinth of spice, colour, and ancient craft.",
+    "description": "Marrakech's medieval medina is a living, breathing UNESCO World Heritage Site where skilled artisans still practise crafts perfected over centuries, and fragrant souks sell everything from hand-stamped leather to saffron-yellowed silk. The Djemaa el-Fna square transforms nightly into one of the world's great open-air theatres.",
+    "coordinates": {
+      "lat": 31.6295,
+      "lon": -7.9811
+    },
+    "tags": [
+      "culture",
+      "food",
+      "history",
+      "nightlife"
+    ],
+    "famousPlaces": [
+      {
+        "id": "djemaa-el-fna",
+        "name": "Djemaa el-Fna",
+        "description": "A vast square that morphs from a daytime market into a night carnival of storytellers, musicians, and food stalls.",
+        "imageQuery": "Djemaa el-Fna square Marrakech Morocco",
+        "imageUrl": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "bahia-palace",
+        "name": "Bahia Palace",
+        "description": "A 19th-century palace of 160 rooms with intricate tilework, carved cedar ceilings, and fragrant orange gardens.",
+        "imageQuery": "Bahia Palace Marrakech interior tilework",
+        "imageUrl": "https://images.unsplash.com/photo-1597212618440-806262de4f6b?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "majorelle",
+        "name": "Jardin Majorelle",
+        "description": "French painter Jacques Majorelle's vivid cobalt-blue garden, later acquired and restored by Yves Saint Laurent.",
+        "imageQuery": "Jardin Majorelle blue garden Marrakech",
+        "imageUrl": "https://images.unsplash.com/photo-1539020140153-e479b8c22e70?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "koutoubia",
+        "name": "Koutoubia Mosque",
+        "description": "The largest mosque in Marrakech and the model for the Giralda in Seville and the Hassan Tower in Rabat.",
+        "imageQuery": "Koutoubia mosque minaret Marrakech",
+        "imageUrl": "https://images.unsplash.com/photo-1569388330292-79cc1ec67270?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Marrakech Morocco travel",
+    "heroQuery": "Marrakech Morocco medina architecture",
+    "imageUrl": "/destinations/marrakech.jpg",
+    "heroImageUrl": "/destinations/marrakech.jpg"
+  },
+  {
+    "id": "new-zealand-south",
+    "name": "South Island",
+    "country": "New Zealand",
+    "continent": "Oceania",
+    "tagline": "Fjords, glaciers, and skies so clear the stars seem within reach.",
+    "description": "New Zealand's South Island packs a staggering variety of landscapes into a single landmass — the Norwegian-scale Milford Sound fjord, the Southern Alps crowned with Franz Josef Glacier, the golden Marlborough wine region, and the dramatic Catlins coast. It is consistently rated among the world's most beautiful destinations.",
+    "coordinates": {
+      "lat": -44.6976,
+      "lon": 168.3489
+    },
+    "tags": [
+      "mountains",
+      "nature",
+      "wildlife",
+      "winter"
+    ],
+    "famousPlaces": [
+      {
+        "id": "milford-sound",
+        "name": "Milford Sound",
+        "description": "Rudyard Kipling's 'eighth wonder of the world' — a sheer-sided fjord where waterfalls plunge 160 metres into dark waters.",
+        "imageQuery": "Milford Sound fjord New Zealand",
+        "imageUrl": "https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "mount-cook",
+        "name": "Aoraki / Mount Cook",
+        "description": "New Zealand's highest peak (3,724m), surrounded by a national park with the world-class Hooker Valley track.",
+        "imageQuery": "Mount Cook Aoraki New Zealand Southern Alps",
+        "imageUrl": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "queenstown",
+        "name": "Queenstown",
+        "description": "The adventure capital of the world, nestled between the Remarkables mountain range and mirror-calm Lake Wakatipu.",
+        "imageQuery": "Queenstown New Zealand lake mountains",
+        "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "abel-tasman",
+        "name": "Abel Tasman Coast Track",
+        "description": "A golden-sand coastal trail through emerald bays, split-apple rocks, and New Zealand fur seal colonies.",
+        "imageQuery": "Abel Tasman coast track golden sand",
+        "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "New Zealand South Island travel",
+    "heroQuery": "New Zealand fjord mountains landscape",
+    "imageUrl": "/destinations/new-zealand-south.jpg",
+    "heroImageUrl": "/destinations/new-zealand-south.jpg"
+  },
+  {
+    "id": "cape-town",
+    "name": "Cape Town",
+    "country": "South Africa",
+    "continent": "Africa",
+    "tagline": "A mountain, two oceans, and a city that never stops surprising.",
+    "description": "Cape Town is bracketed by Table Mountain to the east and two oceans to the west and south, creating a city of extraordinary natural drama and cultural complexity. World-class wine country, penguin colonies, and centuries of layered history coexist within a few kilometres of its electric city centre.",
+    "coordinates": {
+      "lat": -33.9249,
+      "lon": 18.4241
+    },
+    "tags": [
+      "nature",
+      "culture",
+      "beaches",
+      "food",
+      "wildlife"
+    ],
+    "famousPlaces": [
+      {
+        "id": "table-mountain",
+        "name": "Table Mountain",
+        "description": "A flat-topped sandstone mountain rising 1,085 metres above the city, one of the New Seven Wonders of Nature.",
+        "imageQuery": "Table Mountain Cape Town South Africa",
+        "imageUrl": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "boulders-beach",
+        "name": "Boulders Beach Penguins",
+        "description": "A sheltered cove where a colony of 2,000 African penguins waddle, swim, and nest among granite boulders.",
+        "imageQuery": "Boulders Beach penguins Cape Town",
+        "imageUrl": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "cape-point",
+        "name": "Cape Point",
+        "description": "The dramatic rocky headland at Africa's south-western tip, battered by the meeting of Atlantic and Indian Ocean currents.",
+        "imageQuery": "Cape Point lighthouse South Africa",
+        "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "bo-kaap",
+        "name": "Bo-Kaap",
+        "description": "The vibrantly coloured Malay Quarter, where cobblestone streets and rainbow-painted houses tell stories of 18th-century slaves.",
+        "imageQuery": "Bo-Kaap colourful houses Cape Town",
+        "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Cape Town South Africa travel",
+    "heroQuery": "Cape Town Table Mountain aerial view",
+    "imageUrl": "/destinations/cape-town.jpg",
+    "heroImageUrl": "/destinations/cape-town.jpg"
+  },
+  {
+    "id": "iceland",
+    "name": "Iceland",
+    "country": "Iceland",
+    "continent": "Europe",
+    "tagline": "Fire and ice locked in permanent, luminous tension.",
+    "description": "Iceland is a volcanic island where geothermal forces shape everything from the landscape to the culture. Midnight sun in summer gives way to the aurora borealis in winter, while waterfalls, lava fields, and geothermal pools punctuate a moonscape of almost alien beauty.",
+    "coordinates": {
+      "lat": 64.9631,
+      "lon": -19.0208
+    },
+    "tags": [
+      "nature",
+      "mountains",
+      "winter",
+      "wildlife"
+    ],
+    "famousPlaces": [
+      {
+        "id": "northern-lights",
+        "name": "Northern Lights (Aurora)",
+        "description": "The ethereal aurora borealis dances across Icelandic winter skies in curtains of green, purple, and crimson.",
+        "imageQuery": "Northern Lights aurora borealis Iceland",
+        "imageUrl": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "golden-circle",
+        "name": "Golden Circle",
+        "description": "A classic route connecting Þingvellir National Park, the Geysir geothermal area, and Gullfoss waterfall.",
+        "imageQuery": "Golden Circle Iceland Geysir Gullfoss",
+        "imageUrl": "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "jokulsarlon",
+        "name": "Jökulsárlón Glacier Lagoon",
+        "description": "Luminous blue icebergs calved from the Vatnajökull glacier drift through a black-sand-fringed lagoon.",
+        "imageQuery": "Jokulsarlon glacier lagoon Iceland icebergs",
+        "imageUrl": "https://images.unsplash.com/photo-1504893524553-b855bce32c67?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "skogafoss",
+        "name": "Skógafoss Waterfall",
+        "description": "A 60-metre waterfall so powerful it creates its own permanent rainbow, walkable right to the base.",
+        "imageQuery": "Skogafoss waterfall Iceland rainbow",
+        "imageUrl": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Iceland travel landscape",
+    "heroQuery": "Iceland landscape northern lights waterfall",
+    "imageUrl": "/destinations/iceland.jpg",
+    "heroImageUrl": "/destinations/iceland.jpg"
+  },
+  {
+    "id": "rajasthan",
+    "name": "Rajasthan",
+    "country": "India",
+    "continent": "Asia",
+    "tagline": "The land of kings, forts, and colours bright enough to hurt.",
+    "description": "Rajasthan is India at its most theatrical — a desert state of Mughal forts, painted havelis, camel safaris, and the famous Pink City of Jaipur. Each walled city reveals layers of Rajput chivalry, trade-route prosperity, and artistic traditions that continue in workshops unchanged for centuries.",
+    "coordinates": {
+      "lat": 27.0238,
+      "lon": 74.2179
+    },
+    "tags": [
+      "history",
+      "culture",
+      "food",
+      "temples"
+    ],
+    "famousPlaces": [
+      {
+        "id": "amber-fort",
+        "name": "Amer Fort",
+        "description": "A majestic 16th-century fort-palace of pale yellow sandstone and white marble, rising above Maota Lake.",
+        "imageQuery": "Amer Fort Jaipur Rajasthan India",
+        "imageUrl": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "jaisalmer",
+        "name": "Jaisalmer Fort",
+        "description": "The only living fort in India — a honey-coloured sandstone citadel rising from the Thar Desert, inhabited for 800 years.",
+        "imageQuery": "Jaisalmer Fort desert Rajasthan",
+        "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "hawa-mahal",
+        "name": "Hawa Mahal",
+        "description": "The Palace of Winds — a five-storey pink sandstone façade with 953 latticed windows for royal women to observe street life.",
+        "imageQuery": "Hawa Mahal Palace of Winds Jaipur",
+        "imageUrl": "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "udaipur-lake",
+        "name": "Lake Pichola, Udaipur",
+        "description": "A man-made lake framed by palaces, temples, and the Aravalli Hills — the romantic heart of the City of Lakes.",
+        "imageQuery": "Lake Pichola Udaipur City Palace Rajasthan",
+        "imageUrl": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Rajasthan India travel",
+    "heroQuery": "Rajasthan fort desert India landscape",
+    "imageUrl": "/destinations/rajasthan.jpg",
+    "heroImageUrl": "/destinations/rajasthan.jpg"
+  },
+  {
+    "id": "maldives",
+    "name": "Maldives",
+    "country": "Maldives",
+    "continent": "Asia",
+    "tagline": "A necklace of coral atolls on the world's most turquoise sea.",
+    "description": "The Maldives is an archipelago of 1,200 coral islands scattered across the equatorial Indian Ocean, averaging just 1.5 metres above sea level. Its extraordinary clarity of water, bioluminescent beaches, and marine biodiversity — whale sharks, manta rays, and 250 species of coral — make it the definitive ocean escape.",
+    "coordinates": {
+      "lat": 3.2028,
+      "lon": 73.2207
+    },
+    "tags": [
+      "beaches",
+      "wildlife",
+      "nature"
+    ],
+    "famousPlaces": [
+      {
+        "id": "overwater-bungalows",
+        "name": "Overwater Bungalows",
+        "description": "Glass-floored villas suspended above the lagoon on stilts, offering direct access to the warm turquoise water.",
+        "imageQuery": "overwater bungalows Maldives resort lagoon",
+        "imageUrl": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "bioluminescent-beach",
+        "name": "Vaadhoo Island Bioluminescence",
+        "description": "Phytoplankton light up the shore at night in an electric blue glow, creating the famous Sea of Stars.",
+        "imageQuery": "Maldives bioluminescent beach sea of stars",
+        "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "banana-reef",
+        "name": "Banana Reef",
+        "description": "One of the oldest dive sites in the Maldives — a crescent-shaped reef teeming with Napoleon wrasse and eagle rays.",
+        "imageQuery": "Maldives coral reef diving tropical fish",
+        "imageUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "hulhumale",
+        "name": "Hulhumalé Local Island",
+        "description": "A pink-sand local island where Maldivian daily life unfolds — mosques, tea houses, and fresh tuna curry.",
+        "imageQuery": "Maldives local island beach palm trees",
+        "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Maldives ocean travel",
+    "heroQuery": "Maldives turquoise lagoon aerial",
+    "imageUrl": "/destinations/maldives.jpg",
+    "heroImageUrl": "/destinations/maldives.jpg"
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "country": "Portugal",
+    "continent": "Europe",
+    "tagline": "Seven hills of cobblestone, fado, and perpetual golden light.",
+    "description": "Europe's westernmost capital sprawls across seven steep hills above the Tagus estuary, its labyrinthine Moorish Alfama quarter contrasting with Art Nouveau café culture and some of the finest tiles in the world. Lisbon has a particular quality of light that has always attracted artists and wanderers.",
+    "coordinates": {
+      "lat": 38.7223,
+      "lon": -9.1393
+    },
+    "tags": [
+      "culture",
+      "food",
+      "history",
+      "nightlife"
+    ],
+    "famousPlaces": [
+      {
+        "id": "alfama",
+        "name": "Alfama District",
+        "description": "Lisbon's oldest neighbourhood — a maze of steep alleys, miradouros (viewpoints), and fado houses.",
+        "imageQuery": "Alfama district Lisbon Portugal tram",
+        "imageUrl": "https://images.unsplash.com/photo-1509840841025-9088ba78a826?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "belem-tower",
+        "name": "Belém Tower",
+        "description": "A 16th-century Manueline limestone tower guarding the Tagus, once the last sight sailors saw departing for the New World.",
+        "imageQuery": "Belem Tower Lisbon Tagus river",
+        "imageUrl": "https://images.unsplash.com/photo-1585208798174-6cedd86e019a?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "lx-factory",
+        "name": "LX Factory",
+        "description": "A converted 19th-century industrial complex now humming with independent designers, restaurants, and a famous Sunday market.",
+        "imageQuery": "LX Factory Lisbon industrial market",
+        "imageUrl": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "sintra",
+        "name": "Sintra Palace",
+        "description": "A royal village of fairy-tale palaces perched on forested Atlantic-facing hills, 30 minutes from the capital.",
+        "imageQuery": "Sintra Palace Pena Portugal fairy tale",
+        "imageUrl": "https://images.unsplash.com/photo-1588614959060-4d144f28b207?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Lisbon Portugal travel",
+    "heroQuery": "Lisbon Portugal hills tram golden light",
+    "imageUrl": "/destinations/lisbon.jpg",
+    "heroImageUrl": "/destinations/lisbon.jpg"
+  },
+  {
+    "id": "norway-fjords",
+    "name": "Norwegian Fjords",
+    "country": "Norway",
+    "continent": "Europe",
+    "tagline": "Glacially carved cathedral valleys that humble everything in them.",
+    "description": "The Norwegian fjords are the result of the last Ice Age grinding through mountains and filling the valleys with the sea. Geirangerfjord and Nærøyfjord are UNESCO-listed natural wonders, their walls rising a vertical kilometre from the narrow dark water below, draped in ribbons of snowmelt waterfalls.",
+    "coordinates": {
+      "lat": 62.1045,
+      "lon": 7.0978
+    },
+    "tags": [
+      "mountains",
+      "nature",
+      "winter",
+      "wildlife"
+    ],
+    "famousPlaces": [
+      {
+        "id": "geiranger",
+        "name": "Geirangerfjord",
+        "description": "UNESCO-listed fjord with the iconic Seven Sisters waterfall cascading 250 metres into the water.",
+        "imageQuery": "Geirangerfjord Norway UNESCO fjord waterfall",
+        "imageUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "preikestolen",
+        "name": "Preikestolen (Pulpit Rock)",
+        "description": "A flat-topped cliff rising 604 metres above Lysefjord — no guardrails, just an extraordinary view into infinity.",
+        "imageQuery": "Preikestolen Pulpit Rock Norway fjord",
+        "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "bergen",
+        "name": "Bryggen, Bergen",
+        "description": "A Hanseatic wharf of colourful wooden warehouses, UNESCO-listed, that once handled all of Norway's fish trade.",
+        "imageQuery": "Bryggen Bergen Norway colourful houses",
+        "imageUrl": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "flam-railway",
+        "name": "Flåm Railway",
+        "description": "One of the world's steepest train journeys — descending 865m through fjord landscapes, waterfalls, and mountain farms.",
+        "imageQuery": "Flam railway Norway fjord train",
+        "imageUrl": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Norway fjords travel landscape",
+    "heroQuery": "Norway fjord mountains reflection",
+    "imageUrl": "/destinations/norway-fjords.jpg",
+    "heroImageUrl": "/destinations/norway-fjords.jpg"
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "continent": "Asia",
+    "tagline": "The future, perfected and delivered to your table in 3 minutes.",
+    "description": "Tokyo is a city of relentless reinvention that somehow maintains deep traditions alongside breathtaking modernity. Thirty-seven million people inhabit the world's largest metropolis with astonishing grace — trains run on the second, street food rivals Michelin stars, and every neighbourhood has a distinct personality.",
+    "coordinates": {
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "tags": [
+      "food",
+      "culture",
+      "nightlife",
+      "history"
+    ],
+    "famousPlaces": [
+      {
+        "id": "shibuya-crossing",
+        "name": "Shibuya Scramble Crossing",
+        "description": "The world's busiest pedestrian crossing — 3,000 people cross simultaneously from all directions every two minutes.",
+        "imageQuery": "Shibuya crossing Tokyo Japan night",
+        "imageUrl": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "senso-ji",
+        "name": "Senso-ji Temple, Asakusa",
+        "description": "Tokyo's oldest temple, approached through the Nakamise shopping street and its iconic giant red lantern gate.",
+        "imageQuery": "Sensoji temple Asakusa Tokyo Japan",
+        "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "shinjuku-gardens",
+        "name": "Shinjuku Gyoen",
+        "description": "A 58-hectare oasis of French formal gardens, English landscape, and Japanese traditional design in the city centre.",
+        "imageQuery": "Shinjuku Gyoen gardens Tokyo cherry blossoms",
+        "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "tsukiji-outer",
+        "name": "Tsukiji Outer Market",
+        "description": "The world's greatest assembly of fresh seafood, tamagoyaki, and street food — the essential early-morning Tokyo experience.",
+        "imageQuery": "Tsukiji market Tokyo Japan seafood",
+        "imageUrl": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Tokyo Japan travel city",
+    "heroQuery": "Tokyo Japan city night skyline",
+    "imageUrl": "/destinations/tokyo.jpg",
+    "heroImageUrl": "/destinations/tokyo.jpg"
+  },
+  {
+    "id": "safari-serengeti",
+    "name": "Serengeti",
+    "country": "Tanzania",
+    "continent": "Africa",
+    "tagline": "Two million animals moving in the oldest migration on earth.",
+    "description": "The Serengeti is the world's most celebrated wildlife sanctuary — 15,000 square kilometres of endless plains where the annual Great Migration of wildebeest, zebra, and gazelle is an ancient spectacle unchanged since long before humans arrived. Big Five sightings are almost guaranteed.",
+    "coordinates": {
+      "lat": -2.3333,
+      "lon": 34.8333
+    },
+    "tags": [
+      "wildlife",
+      "nature"
+    ],
+    "famousPlaces": [
+      {
+        "id": "great-migration",
+        "name": "The Great Migration",
+        "description": "2.5 million wildebeest, 200,000 zebra, and 500,000 gazelle moving in a year-round circuit across the Serengeti-Masai Mara.",
+        "imageQuery": "Great Migration wildebeest Serengeti Tanzania",
+        "imageUrl": "https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "mara-river-crossing",
+        "name": "Mara River Crossing",
+        "description": "The most dramatic moment of the migration — thousands of wildebeest plunge into a crocodile-filled river.",
+        "imageQuery": "Mara river crossing wildebeest Tanzania",
+        "imageUrl": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "ngorongoro",
+        "name": "Ngorongoro Crater",
+        "description": "The world's largest intact volcanic caldera — a self-contained Eden sheltering 30,000 animals including the densest lion population in Africa.",
+        "imageQuery": "Ngorongoro Crater Tanzania wildlife",
+        "imageUrl": "https://images.unsplash.com/photo-1534177616072-ef7dc120449d?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "ballooning",
+        "name": "Hot Air Balloon Safari",
+        "description": "Drifting silently over the plains at dawn as the golden light reveals the Serengeti's drama from above.",
+        "imageQuery": "hot air balloon Serengeti Tanzania safari",
+        "imageUrl": "https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Serengeti Tanzania safari wildlife",
+    "heroQuery": "Serengeti Tanzania savannah lions elephants",
+    "imageUrl": "/destinations/safari-serengeti.jpg",
+    "heroImageUrl": "/destinations/safari-serengeti.jpg"
+  },
+  {
+    "id": "rio-de-janeiro",
+    "name": "Rio de Janeiro",
+    "country": "Brazil",
+    "continent": "South America",
+    "tagline": "Where mountains, sea, and samba conspire to make restraint impossible.",
+    "description": "Rio de Janeiro is one of the world's great cities of spectacle — flanked by jungle-draped granite peaks plunging directly into legendary beaches, animated by samba rhythms and one of the world's greatest carnivals, and presided over by the outstretched arms of Christ the Redeemer.",
+    "coordinates": {
+      "lat": -22.9068,
+      "lon": -43.1729
+    },
+    "tags": [
+      "beaches",
+      "culture",
+      "nightlife",
+      "nature"
+    ],
+    "famousPlaces": [
+      {
+        "id": "corcovado",
+        "name": "Christ the Redeemer",
+        "description": "The 30-metre Art Deco statue overlooking Rio from 700 metres atop Corcovado mountain — one of the New Seven Wonders.",
+        "imageQuery": "Christ the Redeemer Corcovado Rio de Janeiro",
+        "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "copacabana",
+        "name": "Copacabana Beach",
+        "description": "The world's most famous crescent of sand — 4km of volleyball, caipirinha, and the eternal Rio energy.",
+        "imageQuery": "Copacabana Beach Rio de Janeiro aerial",
+        "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "sugarloaf",
+        "name": "Sugarloaf Mountain",
+        "description": "A 396-metre granite monolith at the mouth of Guanabara Bay, reached by cable car for panoramic city and ocean views.",
+        "imageQuery": "Sugarloaf Mountain Rio de Janeiro cable car",
+        "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "lapa-arches",
+        "name": "Lapa Arches",
+        "description": "An 18th-century colonial aqueduct converted into a viaduct for Rio's famous bonde tram, now flanked by samba clubs.",
+        "imageQuery": "Lapa Arches aqueduct Rio de Janeiro samba",
+        "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Rio de Janeiro Brazil travel",
+    "heroQuery": "Rio de Janeiro Brazil aerial Christ Redeemer",
+    "imageUrl": "/destinations/rio-de-janeiro.jpg",
+    "heroImageUrl": "/destinations/rio-de-janeiro.jpg"
+  },
+  {
+    "id": "petra",
+    "name": "Petra",
+    "country": "Jordan",
+    "continent": "Asia",
+    "tagline": "A rose-red city carved by the Nabataeans into living stone.",
+    "description": "Petra is the extraordinary capital of the Nabataean Kingdom — an entire city of temples, tombs, and dwellings carved directly into rose-red sandstone cliffs over 2,000 years ago. The dramatic narrow Siq canyon reveals the iconic Treasury façade in one of archaeology's great theatrical moments.",
+    "coordinates": {
+      "lat": 30.3285,
+      "lon": 35.4444
+    },
+    "tags": [
+      "history",
+      "culture",
+      "nature"
+    ],
+    "famousPlaces": [
+      {
+        "id": "the-treasury",
+        "name": "Al-Khazneh (The Treasury)",
+        "description": "A 43-metre Hellenistic temple façade carved from rose sandstone, revealed at the end of the narrow Siq gorge.",
+        "imageQuery": "Petra Treasury Al-Khazneh Jordan",
+        "imageUrl": "https://images.unsplash.com/photo-1548013146-72479768bada?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "the-monastery",
+        "name": "Ad-Deir (The Monastery)",
+        "description": "Larger than the Treasury and reached by 800 steps, the Monastery rewards hikers with isolation and grandeur.",
+        "imageQuery": "Petra Monastery Ad-Deir Jordan",
+        "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "siq-canyon",
+        "name": "The Siq",
+        "description": "A 1.2km narrow gorge with walls rising 80 metres — the ancient processional route into the rose city.",
+        "imageQuery": "Petra Siq canyon Jordan narrow gorge",
+        "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "royal-tombs",
+        "name": "The Royal Tombs",
+        "description": "A theatre of monumental carved facades including the Urn, Silk, and Corinthian Tombs, best seen at sunset.",
+        "imageQuery": "Petra Royal Tombs Jordan sandstone",
+        "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Petra Jordan travel archaeology",
+    "heroQuery": "Petra Jordan Treasury rose city",
+    "imageUrl": "/destinations/petra.jpg",
+    "heroImageUrl": "/destinations/petra.jpg"
+  },
+  {
+    "id": "havana",
+    "name": "Havana",
+    "country": "Cuba",
+    "continent": "North America",
+    "tagline": "A city that time forgot, and art filled the gap with music.",
+    "description": "Havana is a living time capsule — Baroque and Neoclassical architecture crumbling magnificently under a perpetual Caribbean sun, 1950s American cars rumbling past seawall promenades, and son cubano drifting from every doorway. The city's contradiction between decay and vitality gives it an unmatched emotional power.",
+    "coordinates": {
+      "lat": 23.1136,
+      "lon": -82.3666
+    },
+    "tags": [
+      "culture",
+      "food",
+      "nightlife",
+      "history"
+    ],
+    "famousPlaces": [
+      {
+        "id": "habana-vieja",
+        "name": "Old Havana (Habana Vieja)",
+        "description": "A UNESCO-listed historic centre of Baroque plazas, colonial palaces, and sun-bleached ochre streets.",
+        "imageQuery": "Old Havana Cuba colonial architecture",
+        "imageUrl": "https://images.unsplash.com/photo-1503424886307-b090341d25d1?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "malecon",
+        "name": "El Malecón",
+        "description": "Havana's famous 8km seafront boulevard where Cubans gather at all hours to fish, flirt, and philosophise.",
+        "imageQuery": "Malecon Havana Cuba seafront sunset",
+        "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "classic-cars",
+        "name": "Classic American Cars",
+        "description": "The living fleet of 1940s–50s American automobiles that serve as private taxis, lovingly maintained against all odds.",
+        "imageQuery": "Havana Cuba classic American cars colourful",
+        "imageUrl": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "buena-vista",
+        "name": "Buena Vista Social Club",
+        "description": "The Egrem studio where the legendary recording was made, now a pilgrimage site for lovers of Afro-Cuban son.",
+        "imageQuery": "Havana Cuba music salsa bar",
+        "imageUrl": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Havana Cuba travel",
+    "heroQuery": "Havana Cuba street cars architecture",
+    "imageUrl": "/destinations/havana.jpg",
+    "heroImageUrl": "/destinations/havana.jpg"
+  },
+  {
+    "id": "swiss-alps",
+    "name": "Swiss Alps",
+    "country": "Switzerland",
+    "continent": "Europe",
+    "tagline": "Where precision meets grandeur, and trains arrive to the second.",
+    "description": "The Swiss Alps are the defining mountain landscape of Europe — a world of pristine glaciers, impossibly green valleys, and summits that include the Matterhorn, Europe's most recognisable peak. Swiss mountain infrastructure means even the most remote areas are accessible by the country's obsessively well-maintained railway network.",
+    "coordinates": {
+      "lat": 46.5197,
+      "lon": 7.9818
+    },
+    "tags": [
+      "mountains",
+      "nature",
+      "winter"
+    ],
+    "famousPlaces": [
+      {
+        "id": "matterhorn",
+        "name": "The Matterhorn",
+        "description": "The 4,478-metre pyramidal peak above Zermatt — arguably the world's most recognised and most painted mountain.",
+        "imageQuery": "Matterhorn Zermatt Switzerland mountain",
+        "imageUrl": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "jungfraujoch",
+        "name": "Jungfraujoch",
+        "description": "The Top of Europe — a high-altitude station at 3,454m accessible by a century-old cogwheel railway through a mountain tunnel.",
+        "imageQuery": "Jungfraujoch Top of Europe snow Switzerland",
+        "imageUrl": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "lauterbrunnen",
+        "name": "Lauterbrunnen Valley",
+        "description": "A sheer-walled glacial valley with 72 waterfalls cascading from 400-metre cliff faces — the inspiration for Tolkien's Rivendell.",
+        "imageQuery": "Lauterbrunnen valley waterfalls Switzerland",
+        "imageUrl": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?w=800&q=80&auto=format&fit=crop"
+      },
+      {
+        "id": "grindelwald",
+        "name": "Grindelwald First",
+        "description": "Alpine village beneath the Eiger's north face with gondola access to trails, a cliff walk, and a panoramic Flyer zipline.",
+        "imageQuery": "Grindelwald Eiger Switzerland alpine village",
+        "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800&q=80&auto=format&fit=crop"
+      }
+    ],
+    "unsplashQuery": "Swiss Alps Switzerland travel",
+    "heroQuery": "Swiss Alps mountains snow landscape",
+    "imageUrl": "/destinations/swiss-alps.jpg",
+    "heroImageUrl": "/destinations/swiss-alps.jpg"
+  }
+]
