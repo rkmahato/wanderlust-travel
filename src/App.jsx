@@ -66,7 +66,7 @@ function AppLayout() {
 
 export function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
             <FlightProvider>
                 <LocationProvider>
                     <ToastProvider>

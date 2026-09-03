@@ -5,6 +5,7 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
+    base: process.env.GITHUB_PAGES === 'true' ? '/wanderlust-travel/' : '/',
     plugins: [react(), tailwindcss()],
     resolve: {
         alias: {
