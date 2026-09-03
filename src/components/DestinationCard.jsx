@@ -5,6 +5,7 @@ import { useLocation } from '@/context/LocationContext';
 import { cn } from '@/utils/motion';
 import { MapPin } from 'lucide-react';
 import { SquircleBadge } from '@/components/common/SquircleBadge';
+import { getAssetUrl } from '@/utils/assets';
 
 /**
  * Determine a relevant adventure icon based on destination tags or metadata
@@ -52,7 +53,7 @@ export function DestinationCard({ destination, className, aspect = "aspect-[3/4]
                 {/* Background Image with smooth zoom */}
                 <div 
                     className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 ease-out group-hover:scale-110"
-                    style={{ backgroundImage: `url(${image?.url || destination.imageUrl || `/destinations/${destination.id}.jpg`})` }}
+                    style={{ backgroundImage: `url(${image?.url || destination.imageUrl || getAssetUrl(`/destinations/${destination.id}.jpg`)})` }}
                 >
                     {status === 'loading' && <div className="absolute inset-0 bg-neutral-900 animate-pulse" />}
                 </div>

@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ChevronLeft, ChevronRight, Camera, MapPin } from 'lucide-react';
+import { getAssetUrl } from '@/utils/assets';
 
 export function PhotoLightbox({ isOpen, onClose, photos = [], initialIndex = 0 }) {
     const [currentIndex, setCurrentIndex] = useState(initialIndex);
@@ -110,7 +111,7 @@ export function PhotoLightbox({ isOpen, onClose, photos = [], initialIndex = 0 }
                                 className="max-h-[70vh] w-auto max-w-full object-contain rounded-2xl shadow-2xl border border-white/10"
                                 onError={(e) => {
                                     e.currentTarget.onerror = null;
-                                    e.currentTarget.src = '/destinations/kyoto.jpg';
+                                    e.currentTarget.src = getAssetUrl('/destinations/kyoto.jpg');
                                 }}
                             />
                         </AnimatePresence>

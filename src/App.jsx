@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion, useScroll, useTransform, useReducedMotion } from 'framer-motion';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
@@ -66,7 +66,7 @@ function AppLayout() {
 
 export function App() {
     return (
-        <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <HashRouter>
             <FlightProvider>
                 <LocationProvider>
                     <ToastProvider>
@@ -74,6 +74,6 @@ export function App() {
                     </ToastProvider>
                 </LocationProvider>
             </FlightProvider>
-        </BrowserRouter>
+        </HashRouter>
     );
 }

@@ -11,6 +11,7 @@ import { VectorMountainLine, VectorWaveLine } from '@/components/common/VectorMo
 import { FloatingNavTab } from '@/components/common/FloatingNavTab';
 import { EditorialFieldStation } from '@/components/EditorialFieldStation';
 import { cn } from '@/utils/motion';
+import { getAssetUrl } from '@/utils/assets';
 
 /* ── Reusable scroll-reveal wrapper ──────────────────────────── */
 function ScrollReveal({ children, className, delay = 0 }) {
@@ -153,7 +154,7 @@ export function LandingPage() {
         return {
             ...dest,
             ...cfg,
-            resolvedImage: dest.imageUrl || `/destinations/${cfg.id}.jpg`
+            resolvedImage: dest.imageUrl ? getAssetUrl(dest.imageUrl) : getAssetUrl(`/destinations/${cfg.id}.jpg`)
         };
     });
 
@@ -184,10 +185,10 @@ export function LandingPage() {
                         muted 
                         playsInline 
                         preload="auto"
-                        poster="/destinations/patagonia.jpg"
+                        poster={getAssetUrl('/destinations/patagonia.jpg')}
                         className="w-full h-full object-cover opacity-85"
                     >
-                        <source src="/hero-video.mp4" type="video/mp4" />
+                        <source src={getAssetUrl('/hero-video.mp4')} type="video/mp4" />
                         <source src="https://cdn.pixabay.com/video/2016/02/29/2295-157183598_large.mp4" type="video/mp4" />
                     </video>
                 </motion.div>

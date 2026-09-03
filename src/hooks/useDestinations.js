@@ -1,6 +1,16 @@
 import { useMemo, useState, useCallback } from 'react';
 import destinationsData from '@/data/destinations.json';
-const destinations = destinationsData;
+import { getAssetUrl } from '@/utils/assets';
+
+const destinations = destinationsData.map((d) => ({
+    ...d,
+    imageUrl: getAssetUrl(d.imageUrl),
+    heroImageUrl: getAssetUrl(d.heroImageUrl),
+    places: (d.places || []).map((p) => ({
+        ...p,
+        imageUrl: getAssetUrl(p.imageUrl)
+    }))
+}));
 const DEFAULT_FILTERS = {
     search: '',
     continent: 'All',

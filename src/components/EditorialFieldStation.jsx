@@ -2,6 +2,7 @@ import React from 'react';
 import { Activity, Radio, MapPin } from 'lucide-react';
 import { SquircleBadge } from '@/components/common/SquircleBadge';
 import { VectorMountainLine, VectorWaveLine } from '@/components/common/VectorMountainLine';
+import { getAssetUrl } from '@/utils/assets';
 
 /**
  * EditorialFieldStation
@@ -11,12 +12,14 @@ import { VectorMountainLine, VectorWaveLine } from '@/components/common/VectorMo
  */
 export function EditorialFieldStation() {
     return (
-        <div className="w-full flex flex-col gap-6">
-            {/* Top Live Satellite Telemetry Chip */}
-            <div className="flex flex-wrap items-center justify-between gap-3 px-1">
-                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-950/60 border border-blue-500/30 text-blue-300 text-[11px] font-bold uppercase tracking-wider backdrop-blur-md">
-                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-                    <span className="w-2 h-2 rounded-full bg-emerald-400 -ml-4" />
+        <div className="relative w-full max-w-xl mx-auto my-8">
+            {/* Ambient Backlight Glow */}
+            <div className="absolute -inset-4 bg-gradient-to-r from-blue-600/20 via-purple-600/15 to-[#FF6B6B]/20 rounded-3xl blur-2xl pointer-events-none -z-10" />
+
+            {/* Field Station Status Badge */}
+            <div className="flex items-center justify-between mb-4 px-2">
+                <div className="flex items-center gap-2 text-[11px] font-mono font-semibold uppercase tracking-widest text-emerald-400 bg-emerald-950/40 border border-emerald-500/30 px-3 py-1 rounded-full backdrop-blur-sm">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
                     <span>Live Field Stream</span>
                 </div>
                 <div className="flex items-center gap-1.5 text-neutral-400 text-xs font-mono">
@@ -28,7 +31,7 @@ export function EditorialFieldStation() {
             {/* Primary Hero Adventure Card */}
             <div className="relative w-full aspect-[16/10] md:aspect-[4/3] rounded-3xl overflow-hidden border border-white/20 shadow-2xl group bg-[#0a1120]">
                 <img
-                    src="/destinations/machu-picchu.jpg"
+                    src={getAssetUrl('/destinations/machu-picchu.jpg')}
                     alt="Volcanic Summit Ridge"
                     className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 />
@@ -58,7 +61,7 @@ export function EditorialFieldStation() {
             <div className="-mt-14 ml-auto w-[82%] rounded-3xl overflow-hidden border-2 border-white/25 shadow-2xl relative z-20 group hover:scale-[1.02] transition-transform duration-300 bg-[#0c1427]">
                 <div className="relative aspect-[16/9] w-full">
                     <img
-                        src="/destinations/swiss-alps.jpg"
+                        src={getAssetUrl('/destinations/swiss-alps.jpg')}
                         alt="High Alpine Ascent"
                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />

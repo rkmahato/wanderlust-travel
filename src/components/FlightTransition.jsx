@@ -1,55 +1,34 @@
-import { useState, useEffect, useCallback } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FlightContext } from '@/context/FlightContext';
 
-
 export function FlightProvider({ children }) {
-    const navigate = useNavigate();
+    const location = useLocation();
     const [flight, setFlight] = useState(null);
-
-    const startFlight = useCallback((to, coords) => {
-        if (flight) return;
-
-        const x = coords?.x ?? window.innerWidth * 0.5;
-        const y = coords?.y ?? window.innerHeight * 0.5;
-
-        setFlight({
-            to,
-            startX: x,
-            startY: y
-        });
-
-        // Fast, smooth, non-blocking navigation (~380ms)
-        setTimeout(() => {
-            navigate(to);
-            window.scrollTo({ top: 0, behavior: 'instant' });
-        }, 380);
-
-        setTimeout(() => {
-            setFlight(null);
-        }, 650);
-    }, [flight, navigate]);
+    const prevLocation = useRef(location.pathname);
 
     useEffect(() => {
-        const handleGlobalClick = (e) => {
-            const clickable = e.target.closest('a[href], button[data-fly]');
-            if (!clickable) return;
+        if (prevLocation.current !== location.pathname) {
+            prevLocation.current = location.pathname;
+            setFlight({
+                startX: window.innerWidth * 0.5,
+                startY: window.innerHeight * 0.5
+            });
+            const timer = setTimeout(() => {
+                setFlight(null);
+            }, 650);
+            return () => clearTimeout(timer);
+        }
+    }, [location.pathname]);
 
-            if (clickable.target === '_blank' || clickable.hasAttribute('download')) return;
-            if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
-
-            const href = clickable.getAttribute('href');
-            if (href && href.startsWith('/') && !href.startsWith('//')) {
-                e.preventDefault();
-                e.stopPropagation();
-                startFlight(href, { x: e.clientX, y: e.clientY });
-            }
-        };
-
-        document.addEventListener('click', handleGlobalClick, { capture: true });
-        return () => document.removeEventListener('click', handleGlobalClick, { capture: true });
-    }, [startFlight]);
+    const startFlight = useCallback((to, coords) => {
+        setFlight({
+            startX: coords?.x ?? window.innerWidth * 0.5,
+            startY: coords?.y ?? window.innerHeight * 0.5
+        });
+        setTimeout(() => setFlight(null), 650);
+    }, []);
 
     return (
         <FlightContext.Provider value={{ startFlight }}>

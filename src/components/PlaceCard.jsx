@@ -6,6 +6,7 @@ import {
 } from 'lucide-react';
 import { useToast } from '@/context/ToastContext';
 import { motion, AnimatePresence } from 'framer-motion';
+import { getAssetUrl } from '@/utils/assets';
 
 /**
  * Derives rich backcountry & photography intelligence for each notable landmark
@@ -135,7 +136,7 @@ export function PlaceCard({ place, destinationName, onOpenLightbox }) {
 
     const resolvedImageUrl = hasImage 
         ? (image?.url || place.imageUrl) 
-        : `/destinations/${place.id}.jpg`;
+        : getAssetUrl(`/destinations/${place.id}.jpg`);
 
     const openModal = () => setModalOpen(true);
     const closeModal = () => setModalOpen(false);
@@ -263,7 +264,7 @@ export function PlaceCard({ place, destinationName, onOpenLightbox }) {
                                     className="w-full h-full object-cover"
                                     onError={(e) => {
                                         e.currentTarget.onerror = null;
-                                        e.currentTarget.src = '/destinations/kyoto.jpg';
+                                        e.currentTarget.src = getAssetUrl('/destinations/kyoto.jpg');
                                     }}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-[#0e0a22] via-[#0e0a22]/30 to-black/50" />
